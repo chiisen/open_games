@@ -1,0 +1,19 @@
+{
+  "name": "open_games",
+  "version": "1.0.0",
+  "description": "產生開啟多個遊戲的SQL語法",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-chiisen:chiisen/open_games.git"
+  },
+  "author": "Sam",
+  "license": "MIT",
+  "dependencies": {
+    "cli-color": "^2.0.3",
+    "node-xlsx": "^0.21.0"
+  }
+}
