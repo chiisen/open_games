@@ -1,3 +1,5 @@
+const clc = require("cli-color")
+
 const { getExcel } = require("./excel")
 const { processSQL } = require("./sql")
 
@@ -13,3 +15,4 @@ hallListSheet_.forEach((row_) => {
 
 processSQL(hallCidList_)
 
+console.log(clc.red("程式結束!"))
