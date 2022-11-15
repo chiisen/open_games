@@ -1,6 +1,8 @@
 const clc = require("cli-color")
 
-const { getExcel } = require("./excel")
+const { excel } = require("58-toolkit")
+const { getExcel } = excel
+
 const { processSQL } = require("./sql")
 
 const hallListSheet_ = getExcel("./input/HALL_LIST.xlsx", false, "HALL_LIST")
