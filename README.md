@@ -18,3 +18,8 @@ npm uninstall --save 58-toolkit
 ```bash=
 npm install 58-toolkit@latest
 ```
+
+# 執行程式  
+```
+npm run start
+```
